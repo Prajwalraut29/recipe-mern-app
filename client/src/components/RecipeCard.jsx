@@ -15,7 +15,7 @@ const RecipeCard = ({ id, title, image }) => {
 
     const addToFav = async (favourite) => {
         const res = await axios.post(
-            `http://localhost:5000/api/addToFavourites/${user._id}`,
+            `https://recipe-mern-app-nueq.onrender.com/api/addToFavourites/${user._id}`,
             favourite,
             { withCredentials: true }
         );
@@ -28,7 +28,7 @@ const RecipeCard = ({ id, title, image }) => {
 
     const removeTofav = async (favourite) => {
         const res = await axios.post(
-            `http://localhost:5000/api/removeFromFavourites/${user._id}`,
+            `https://recipe-mern-app-nueq.onrender.com/api/removeFromFavourites/${user._id}`,
             favourite,
             { withCredentials: true }
         );

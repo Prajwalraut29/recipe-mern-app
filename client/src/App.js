@@ -17,12 +17,12 @@ function App() {
           <Navbar />
           <Toaster />
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/recipe/:id" element={<RecipeDetails />} />
-            <Route path='/favourites' element={<Favourites />} />
+            <Route path='https://recipe-mern-app-five.vercel.app' element={<Home />} />
+            <Route path="https://recipe-mern-app-five.vercel.app/about" element={<About />} />
+            <Route path="https://recipe-mern-app-five.vercel.app/login" element={<Login />} />
+            <Route path="https://recipe-mern-app-five.vercel.app/signup" element={<Signup />} />
+            <Route path="https://recipe-mern-app-five.vercel.app/recipe/:id" element={<RecipeDetails />} />
+            <Route path='https://recipe-mern-app-five.vercel.app/favourites' element={<Favourites />} />
           </Routes>
         </BrowserRouter>
       </Provider>
